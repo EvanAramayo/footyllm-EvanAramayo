@@ -1,0 +1,36 @@
+# FootyFacts
+
+## Setup
+
+To use FootyFacts, you’ll need to have [Ollama](https://ollama.com) installed on your system.
+
+1. Save the modelfile as `Modelfile` in a folder.
+2. In your terminal, navigate to that folder.
+3. Run the following command to create the model:
+
+```bash
+ollama create footyfacts -f Modelfile
+
+4. start model with: ollama run footyfacts
+
+## Model use cases
+
+FootyFacts is a soccer-focused LLM designed to answer detailed questions about:
+
+-Famous players, their careers, and club history
+-Match outcomes and tournament summaries
+-Historical transfers and lineups
+-Club records, stats, and trivia
+
+## Example
+
+What to enter: 
+Who scored the winning goal in the 2014 World Cup final?
+
+what output is:
+Mario Götze scored the winning goal for Germany in the 2014 World Cup final against Argentina during extra time, securing a 1-0 victory.
+
+## Limitations
+-FootyFacts cannot get or update live data soit’s limited to the knowledge it was trained with.
+-It doesn’t support multiple languages well
+-Like all LLMs, it can sometimes generate incorrect facts confidently, so it’s best used for general knowledge.
